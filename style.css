@@ -1,0 +1,15 @@
+#cars li img {
+    height: 400px;
+    width: 600px;
+    /* position: relative; */
+}
+
+#cars li {
+    position: relative;
+    background-color: white;
+    text-align: center;
+    border-radius: 2cm;
+    list-style: none;
+}
+
+
