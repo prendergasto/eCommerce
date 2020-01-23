@@ -16,6 +16,8 @@ function renderTableRow(lineItem, car) {
     priceRow.textContent = car.price;
     tr.appendChild(priceRow);
 
+    console.log('hey');
+
     // const total = document.createElement('td');
     // total.textContent = lineItem.quantity * car.price;
     // tr.appendChild(total);

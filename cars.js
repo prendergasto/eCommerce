@@ -4,7 +4,7 @@ const acura = {
     image: 'acura.png',
     class: 'sedan',
     priceCategory: 'mid',
-    averagePrice: 34000
+    price: 34000
 
 };
 
@@ -14,7 +14,7 @@ const audi = {
     image: 'audi.png',
     class: 'sedan',
     priceCategory: 'mid',
-    averagePrice: 42000
+    price: 42000
 
 };
 
@@ -24,7 +24,7 @@ const bmw = {
     image: 'bmw.png',
     class: 'sedan',
     priceCategory: 'high',
-    averagePrice: 51000
+    price: 51000
 
 };
 
@@ -34,7 +34,7 @@ const bentley = {
     image: 'bentley.png',
     class: 'sedan',
     priceCategory: 'luxury',
-    averagePrice: 150000
+    price: 150000
 
 };
 
@@ -44,7 +44,7 @@ const chevrolet = {
     image: 'chevrolet.png',
     class: 'SUV',
     priceCategory: 'low',
-    averagePrice: 29000
+    price: 29000
 
 };
 
@@ -54,7 +54,7 @@ const ferrari = {
     image: 'ferrari.png',
     class: 'coupe',
     priceCategory: 'performance',
-    averagePrice: 200000
+    price: 200000
 
 };
 
@@ -64,7 +64,7 @@ const kia = {
     image: 'kia.png',
     class: 'sedan',
     priceCategory: 'low',
-    averagePrice: 22000
+    price: 22000
 
 };
 
@@ -74,7 +74,7 @@ const toyota = {
     image: 'toyota.png',
     class: 'sedan',
     priceCategory: 'low',
-    averagePrice: 23000
+    price: 23000
 
 };
 
