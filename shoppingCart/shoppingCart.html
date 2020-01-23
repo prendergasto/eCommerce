@@ -4,16 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Car Shopping</title>
+    <link rel="stylesheet" href="shoppingCart.css">
 </head>
 <body>
 
-    <ul>
-        <li>
-            <p>"car"</p>
-            <p>"cost"</p>
-        </li>
-    </ul>
+    <table style="width:100%" class="checkout" border=1px dotted black>
+        <thead>
+            <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr id="table-row">
+                <td>Ferrari</td>
+                <td>1</td>
+                <td>$200,000</td>
+            </tr>
+            <tr id="table-row">
+                <td>Toyota</td>
+                <td>2</td>
+                <td>$46,000</td>
+            </tr>
+            <tr id="table-row">
+                <td>Kia</td>
+                <td>1</td>
+                <td>$22,000</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr id="bottom-row">
+                <td></td>
+                <td><strong>Order Total:</strong></td>
+                <td>$268,000</td>
+            </tr>
+        </tfoot>
+      </table>
+      <br>
+      <button class="button" id="button"><strong>Place Order</strong></button>
     
 </body>
 </html>
