@@ -1,0 +1,35 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    border-color: olive;
+}
+
+#cars {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#cars li img {
+    height: 300px;
+    width: 400px;
+    /* position: relative; */
+}
+
+#cars li h3 {
+    font-style: italic;
+}
+
+#cars li {
+    position: relative;
+    background-color: white;
+    text-align: center;
+    border-radius: 2cm;
+    list-style: none;
+}
+
+#cars li button {
+    position: absolute;
+
+}
+
+
