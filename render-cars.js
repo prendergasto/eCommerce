@@ -17,7 +17,7 @@ function renderCars(cars) {
     li.appendChild(img);
 
     const p = document.createElement('p');
-    p.className = 'averagePrice';
+    p.className = 'price';
     
     const usd = '$' + cars.price;
     p.textContent = usd;

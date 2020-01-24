@@ -1,4 +1,4 @@
-import cart from '../data/cart.js';
+// import cart from '../data/cart.js';
 import cars from '../cars.js';
 import { findById, calculateCartTotal } from '../functions.js';
 import renderTableRow from './render-line-items.js';
@@ -10,12 +10,12 @@ const orderTotalRow = document.getElementById('order-total-row');
 const placeOrderButton = document.getElementById('button');
 
 let data = localStorage.getItem('CART');
-        let cart;
-        if (data) {
-            cart = JSON.parse(data);
-        } else {
-            cart = [];
-        }
+let cart;
+if (data) {
+    cart = JSON.parse(data);
+} else {
+    cart = [];
+}
 
 for (let i = 0; i < cart.length; i++) {
     const lineItem = cart[i];
@@ -25,7 +25,7 @@ for (let i = 0; i < cart.length; i++) {
     tbody.appendChild(dom);
 }
 
-const orderTotal = calculateCartTotal(cart, cars);
+const orderTotal = calculateCartTotal(cars);
 orderTotalRow.textContent = orderTotal;
 
 if (cart.length === 0) {
