@@ -10,8 +10,8 @@
 }
 
 #cars li img {
-    height: 300px;
-    width: 400px;
+    height: 100px;
+    width: 150px;
     /* position: relative; */
 }
 
@@ -29,7 +29,13 @@
 
 #cars li button {
     position: absolute;
+    padding: .1cm;
 
+}
+
+img {
+    padding: 3cm;
+    white-space: normal;
 }
 
 

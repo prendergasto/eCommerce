@@ -9,4 +9,4 @@ for (let c = 0; c < cars.length; c++) {
     const dom = renderCars(car);
     list.appendChild(dom);
     // console.log(list);
-}
+}   

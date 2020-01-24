@@ -1,4 +1,4 @@
-import './test/example.test.js';
+// import './test/example.test.js';
 
 export function totalPrice(quantity, price) {
     const amount = quantity * price;
